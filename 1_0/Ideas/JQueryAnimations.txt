@@ -1,0 +1,7 @@
+$().fadeout(duration);
+Element in the () will fade out of the picture
+
+# are selectors in css, they allow you to point to a specific element or elements
+
+connect javascript and jquery elements with 
+<script type="text/javascript" src="source file"></script>
