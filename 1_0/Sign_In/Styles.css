@@ -1,0 +1,81 @@
+/**
+/**************************
+HTML Default settings
+**************************/
+html, body 
+{
+	padding: 0;
+	margin: 0;
+	background-color: #bdbdbd;
+	height: 100%;
+}
+
+
+/**************************
+Built in tags settings
+**************************/
+input
+{
+	width: 275px;
+	height: 50px;
+	font-size: 15px;
+	text-align: center;
+	font-style: bold;
+	color: gray;
+}
+
+button
+{
+	width: 137px;
+	height: 50px;
+	text-align: center;
+	font-size: 15px;
+	color: #009431;
+}
+
+/**************************
+Styles that occur on hover
+**************************/
+a:hover
+{
+	color: red;
+}
+
+/**************************
+Class Settings
+**************************/
+.preview
+{
+	float: left;
+	background-color: #bdbdbd;
+	width: 75%;
+	height: 580px;
+	font-style: bold,italic;
+	color: black;
+	text-align: center;
+}
+
+/**************************
+Id settings
+**************************/
+#header
+{
+	background-color: #009431;
+	height: 60px;
+	text-align: center;
+	color: white;
+	width: 100%;
+	padding: 0;
+	margin: 0;
+}
+
+#login
+{
+	float: right;
+	width: 25%;
+	text-align: center;
+}
+
+
+
+
