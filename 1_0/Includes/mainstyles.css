@@ -1,7 +1,7 @@
 /**************************
 HTML Default settings
 **************************/
-html, body 
+body 
 {
 	padding-left: 100px;
 	padding-right: 100px;
@@ -76,14 +76,13 @@ Id settings
 {
 	background-color: #009431;
 	height: 50px;
-	color: white;
 	width: 100%;
 	padding: 0;
 	margin: 0;
 	float: none;
     left: 0;
     top: 0;
-    margin: auto;
+    margin:0;
 }
 
 #vertcontainer
