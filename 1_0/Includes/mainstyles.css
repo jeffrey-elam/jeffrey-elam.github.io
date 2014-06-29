@@ -1,0 +1,148 @@
+/**************************
+HTML Default settings
+**************************/
+html, body 
+{
+	padding-left: 100px;
+	padding-right: 100px;
+	margin: 0;
+	background-color: #bdbdbd;
+	height: 100%;
+}
+
+/**************************
+Built in tags settings
+**************************/
+
+/*Empty*/
+
+/**************************
+Styles that occur on hover
+**************************/
+.headerlink:hover
+{
+	background-color: #bdbdbd;
+	color: #009431;
+}
+
+/**************************
+Class Settings
+**************************/
+.headerlink
+{
+	text-align: center;
+	line-height: 50px;
+	color: #bdbdbd;
+	height: 60px;
+	display: inline-block;
+	width: 100px;
+	font-family: sans-serif;
+	font-size: 16px;
+}
+
+.divsplit
+{
+	margin-bottom: 20px;
+}
+
+.profilepic
+{
+	background-color: white;
+	text-align: center;
+}
+
+.userinfo
+{
+	background-color: white;
+	text-align: left;
+}
+
+.guidelist
+{
+	background-color: white;
+	text-align: left;
+}
+
+.mainsection
+{
+	background-color: white;
+}
+
+
+/**************************
+Id settings
+**************************/
+#header
+{
+	background-color: #009431;
+	height: 50px;
+	color: white;
+	width: 100%;
+	padding: 0;
+	margin: 0;
+	float: none;
+    left: 0;
+    top: 0;
+    margin: auto;
+}
+
+#vertcontainer
+{
+	float: left;
+	border: solid red;
+	width: 250px;
+	padding: 20px;
+	text-align: center;
+}
+
+#maincontainer
+{
+	float: left;
+	border: solid blue;
+	padding-top: 20px;
+	padding-left: 100px;
+	width: 800px;
+}
+
+/*
+-----------
+Search ID's
+-----------
+*/
+#newsearch{
+	float:right;
+	padding:10px;
+	line-height: 30px;
+}
+
+#searchtextinput{
+	margin: 0;
+	padding: 5px 15px;
+	font-family: Arial, Helvetica, sans-serif;
+	font-size:14px;
+	border:1px solid #0076a3; border-right:0px;
+	border-top-left-radius: 5px 5px;
+	border-bottom-left-radius: 5px 5px;
+}
+
+#searchbutton {
+	margin: 0;
+	padding: 5px 15px;
+	font-family: Arial, Helvetica, sans-serif;
+	font-size:14px;
+	outline: none;
+	cursor: pointer;
+	text-align: center;
+	text-decoration: none;
+	color: green;
+	border: solid 1px #0076a3; border-right:0px;
+	background: green;
+	background: -webkit-gradient(linear, left top, left bottom, from(#b3b3b3), to(#bdbdbd));
+	background: -moz-linear-gradient(top,  #b3b3b3, #bdbdbd);
+	border-top-right-radius: 5px 5px;
+	border-bottom-right-radius: 5px 5px;
+}
+
+#searchbutton::-moz-focus-inner {
+  border: 0;
+}

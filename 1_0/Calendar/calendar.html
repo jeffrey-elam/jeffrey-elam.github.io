@@ -1,18 +1,36 @@
 <!DOCTYPE HTML>
 <html>
 
-<!-- Head locations and information. Links to css, js, etc... -->
 <head>
-	<!-- CSS source file -->
-	<link rel="stylesheet" type="text/css" href = "calendar_styles.css">
+	<!--
+	**************
+	Main Imports
+	**************
+	-->
+	<!-- Main CSS source file -->
+ 	<link rel="stylesheet" type="text/css" href = "../Includes/mainstyles.css">
 	<!-- JQUERY source file -->
-    <script src="calendar_jquery.js"></script>
-    <!--JAVASCRIPT source file -->
-    <script type="text/javascript" src="../Objects/person_object.js"></script>
-</head>
+  	<script src="../Includes/jquery.js"></script>
+  	<!--Person Object Source File--> 
+  	<script type="text/javascript" src="../Objects/person_object.js"></script>
+  	
+  	<!--
+	**************
+	Page Specific
+	**************
+	-->
+	<!-- Calendar CSS source file -->
+	<link rel="stylesheet" type="text/css" href = "calendar_style.css">
+  	<!-- Calendar JQuery source file -->
+  	<script src="calendar_jquery.js"></script>
+  	<!-- Full calendar implementation -->
+  	<link rel='stylesheet' type='text/css' href='../fullcal/fullcalendar.css' />
+	<script type='text/javascript' src='../fullcal/lib/moment.min.js'></script>
+	<script type='text/javascript' src='../fullcal/lib/jquery.min.js'></script>
+	<script type='text/javascript' src='../fullcal/lib/jquery-ui.custom.min.js'></script>
+	<script type='text/javascript' src='../fullcal/fullcalendar.min.js'></script>
 
 
-<body>
 	<!-- 
 	**********************************************************************************
 										Header
@@ -27,12 +45,14 @@
         	<input type="text" id="searchtextinput" size="21" maxlength="120">
         	<input type="submit" value="search" id="searchbutton">
 		</form>
-		<div class="tfclear"></div>
 	</div>
 	<!-- 
 	**********************************************************************************
 	********************************************************************************** 
 	-->
+</head>
+
+<body>
 
 
 
@@ -42,41 +62,29 @@
 									User's information
 	********************************************************************************** 
 	-->
-	<div id="userinformationdiv">
-		<div id = "userinformation">
-			<div id="profilepic">
-				<img src="../ProfilePlaceholder.png" style="border: solid white;"/>
-			</div>
-			<div id="userdetails">
-				<script>
-					var user = newUser("Jeff","Elam","jeffemail","Centre College");
-					document.write("<strong>Name: </strong>" + getFirstName() + " " + getLastName() + "<br>");
-					document.write("<strong>Email: </strong>" + getEmailAddress() + "<br>");
-					document.write("<strong>School: </strong>" + getSchool());
-				</script>
-			</div>
-		</div>
-	</div>
-	<!-- 
-	**********************************************************************************
-	********************************************************************************** 
-	-->
+<!-- 	<div id="vertcontainer">
+    	<div class="profilepic divsplit">
+      		<img src="../ProfilePlaceholder.png"/>
+    	</div>
+    	<div class="userinfo divsplit">
+      		User information here...
+    	</div>
+    	<div class="guidelist">
+      		Study guide list here...
+    	</div>
+  	</div> -->
 
+  	<!-- 
+  	**********************************************************************************
+  	********************************************************************************** 
+  	-->
 
-
-
-	<!-- 
-	**********************************************************************************
-									User's study Guides
-	********************************************************************************** 
-	-->
-	<div id="userinformationdiv">
-		<div id = "guideinformation">
-			<script>
-				document.write("You have no study guides!");
-			</script>
-		</div>
-	</div>
+  	<!--
+  	**********************************************************************************
+                 					 Main Section
+  	********************************************************************************** 
+  	-->
+	<div id='calendar' style='margin:3em 0;font-size:13px'></div>
 	<!-- 
 	**********************************************************************************
 	********************************************************************************** 
