@@ -1,0 +1,4 @@
+/*
+Javascript source file. 
+Can be used to create objects or store variables or just store functions in general.
+*/
