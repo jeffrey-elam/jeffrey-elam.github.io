@@ -1,9 +1,9 @@
 <!DOCTYPE HTML>
 <html>
 <head>
-	<link rel="stylesheet" type="text/css" href = "Sign_In/Styles.css">
-    <script src="Sign_In/jquery.js"></script>
-    <script type="text/javascript" src="Sign_In/JS_Functions.js"></script>
+	<link rel="stylesheet" type="text/css" href = "Sign_In/sign_in_styles.css">
+    <script src="Sign_In/sign_in_jquery.js"></script>
+    <script type="text/javascript" src="Sign_In/sign_in_js_functions.js"></script>
 </head>
 
 <body>
@@ -19,17 +19,17 @@
 
 	<!-- Login information: name, email, password -->
 	<div id="login"> 
-		<form >
+		<form action="Home/home.html" method="post">
 			<br><br>
-			<button>Sign Up</button>
-			<button >Sign In</button>
-			<input type="text" name="username" id="username" value="Full Name"></input>
-			<input type="text" name="email" id="email" value="Email"></input>
-			<input type="text" name="password" id="password" value="Password"></input>
-			<input type="text" name="confirm_password" id="confirm_password" value="Confirm Password"></input>
-			
+			<button name="signin" type="submit">Sign Up</button>
+			<button name="signin" type="submit">Sign In</button>
+			<input type="text" name="username" id="username" value="Full Name" required="true"></input>
+			<input type="text" name="email" id="email" value="Email"  required="true"></input>
+			<!--
+			<input type="password" name="password" id="password" value="Password"  required="true"></input>
+			<input type="password" name="confirm_password" id="confirm_password" value="Confirm Password"  required="true"></input>
+			-->
 		</form>
-
 	</div> 
 </body>
 

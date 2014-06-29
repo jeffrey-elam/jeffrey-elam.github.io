@@ -19,4 +19,20 @@ $(document).ready(function() {
     ,5000
   );
 
+  $('#username').click(function() {
+    $(this).val('');
+  });
+
+  $('#email').click(function() {
+    $(this).val('');
+  });
+
+  $('#password').click(function() {
+    $(this).val('').clone().attr('type','password').insertAfter(this).prev().remove();
+  });
+
+  $('#confirm_password').click(function() {
+    $(this).val('').clone().attr('type','password').insertAfter(this).prev().remove();
+  });
+
 });
