@@ -5,6 +5,7 @@ body
 {
 	padding-left: 100px;
 	padding-right: 100px;
+	padding-top: 75px;
 	margin: 0;
 	background-color: #bdbdbd;
 	height: 100%;
@@ -19,7 +20,7 @@ Built in tags settings
 /**************************
 Styles that occur on hover
 **************************/
-.headerlink:hover
+.header-link:hover
 {
 	background-color: #bdbdbd;
 	color: #009431;
@@ -28,7 +29,7 @@ Styles that occur on hover
 /**************************
 Class Settings
 **************************/
-.headerlink
+.header-link
 {
 	text-align: center;
 	line-height: 50px;
@@ -38,6 +39,25 @@ Class Settings
 	width: 100px;
 	font-family: sans-serif;
 	font-size: 16px;
+}
+
+.header-link-selected
+{
+	text-align: center;
+	line-height: 50px;
+	background-color: #bdbdbd;
+	color: #009431;
+	height: 60px;
+	display: inline-block;
+	width: 100px;
+	font-family: sans-serif;
+	font-size: 16px;
+}
+
+.header-link-left
+{
+	display: inline-block;
+	width: 100px;
 }
 
 .divsplit
@@ -77,6 +97,7 @@ Id settings
 	background-color: #009431;
 	height: 50px;
 	width: 100%;
+	position: absolute;
 	padding: 0;
 	margin: 0;
 	float: none;
