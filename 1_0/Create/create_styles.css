@@ -19,9 +19,49 @@ Styles that occur on hover
 /**************************
 Class Settings
 **************************/
+.create-class
+{
+	text-align: center;
+	width: 300px;
+	display: inline-block;
+	padding-left: 10%;
+	float: left;
+}
 
-/*Empty*/
+.create-guide
+{
+	text-align: center;
+	width: 300px;
+	padding-right: 10%;
+	display: inline-block;
+	float: right;
+}
+
+.create-button
+{
+	height: 60px;
+	width: 250px;
+	background-color: #009431;
+	color: white;
+	text-align: center;
+	font-family: Arial;
+	font-size: 20px;
+	font-style: bold;
+	border: none;
+}
+
+.create-form
+{
+	text-align: right;
+	width: 250px;
+	padding-top: 10px;
+}
 
 /**************************
 Id settings
 **************************/
+#create-container
+{
+	text-align: center;
+	width: 100%;
+}

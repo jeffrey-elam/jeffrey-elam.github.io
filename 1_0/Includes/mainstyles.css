@@ -22,8 +22,7 @@ Styles that occur on hover
 **************************/
 .header-link:hover
 {
-	background-color: #bdbdbd;
-	color: #009431;
+	color: white;
 }
 
 /**************************
@@ -34,7 +33,7 @@ Class Settings
 	text-align: center;
 	line-height: 50px;
 	color: #bdbdbd;
-	height: 60px;
+	height: 50px;
 	display: inline-block;
 	width: 100px;
 	font-family: sans-serif;
@@ -45,9 +44,9 @@ Class Settings
 {
 	text-align: center;
 	line-height: 50px;
-	background-color: #bdbdbd;
+	background-color: white;
 	color: #009431;
-	height: 60px;
+	height: 51px;
 	display: inline-block;
 	width: 100px;
 	font-family: sans-serif;
@@ -88,6 +87,10 @@ Class Settings
 	background-color: white;
 }
 
+.test-div
+{
+	border: red solid;
+}
 
 /**************************
 Id settings
@@ -104,6 +107,7 @@ Id settings
     left: 0;
     top: 0;
     margin:0;
+    border-bottom: #007E2A 1px solid;
 }
 
 #vertcontainer
