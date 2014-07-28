@@ -2,7 +2,6 @@
 <html>
 
 <head>
-  <title>Home</title>
   <!--
   **************
   Main Imports
@@ -10,8 +9,6 @@
   -->
   <!-- Main CSS source file -->
   <link rel="stylesheet" type="text/css" href = "../Includes/mainstyles.css">
-  <!-- Website Icon -->
-  <link rel="shortcut icon" href="../Includes/Icon.png">
   <!-- JQUERY source file -->
   <script src="../Includes/jquery.js"></script>
   <!--Person Object Source File--> 
@@ -22,11 +19,11 @@
   Page Specific
   **************
   -->
-	<!-- Home CSS source file -->
-	<link rel="stylesheet" type="text/css" href = "home_styles.css">
+  <!-- Home CSS source file -->
+  <link rel="stylesheet" type="text/css" href = "">
   <!-- Home JQuery source file -->
-  <script src = "home_jquery.js"></script>
-	
+  <link rel="stylesheet" type="text/css" href = "">
+    
 </head>
 
 <body>
@@ -37,10 +34,11 @@
   -->
   <div id = "header">
     <div class=" header-link-left"></div>
-    <div class="header-link-selected">Home</div>
+    <a href="../Home/home.html"><div class="header-link">Home</div></a>
     <a href="../Calendar/calendar.html"><div class="header-link">Calendar</div></a>    
-    <a href="../Classes/classes.html"><div class="header-link">Classes</div></a>
+    <a href="../Classes/classes.html"><div class="header-link">Classes</div></a> 
     <a href="../Create/create.html"><div class="header-link">Create</div></a>
+    <div class="header-link-selected">Create Mode</div>
     <form id="newsearch" method="get" action="http://www.google.com">
           <input type="text" id="searchtextinput" size="21" maxlength="120">
           <input type="submit" value="search" id="searchbutton">
@@ -51,47 +49,16 @@
   ********************************************************************************** 
   -->
 
-
-
-
-  <!-- 
-  **********************************************************************************
-                  User's information
-  ********************************************************************************** 
-  -->
-  <div id="vertcontainer">
-    <div class="profilepic divsplit">
-      <img src="../ProfilePlaceholder.png"/>
-    </div>
-    <div class="userinfo divsplit">
-      User information here...
-    </div>
-    <div class="guidelist">
-      Study guide list here...
-    </div>
-  </div>
-
-  <!-- 
-  **********************************************************************************
-  ********************************************************************************** 
-  -->
-
   <!--
   **********************************************************************************
                   Main Section
   ********************************************************************************** 
   -->
-  <div id="maincontainer">
-    <div class="mainsection">
-      Main section is here...
-    </div>
-  </div>
+
   <!-- 
   **********************************************************************************
   ********************************************************************************** 
   -->
-
-
 </body>
 
 

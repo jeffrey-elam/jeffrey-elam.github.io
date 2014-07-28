@@ -1,5 +1,7 @@
 $(document).ready(function() {
 
-//Functions go in here...
+	$("div").click(function(){
+		$(this).css("background-color","yellow");
+	});
 
 });
